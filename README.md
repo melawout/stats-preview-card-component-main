@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/responsive-stat-preview-component-card-uYSVQbKeqN
 - Live Site URL: https://fem-stats-preview-card0.netlify.app/
 
 ## Author
