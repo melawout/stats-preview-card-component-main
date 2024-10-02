@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Stats preview card component</title>
-
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Stats preview card component</title>
 </head>
 <body>
 
@@ -17,23 +17,25 @@
       <picture class="card__img">
         <source 
           srcset="images/image-header-desktop.jpg"
-          media="(min-width: 600px)"
+          media="(min-width: 500px)"
         >
         <img src="images/image-header-mobile.jpg" alt="collegues working anf chatting">
-      </picture>        
+      </picture>   
+      <div class="card__main">
+        <h1>Get <span>insights</span> that help your business grow.</h1>
+        <p>
+          Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+          experience, and overall efficiency.
+        </p>
+        <div class="card__stats">
+          <p class="fs-400"><span class="fs-600">10k+</span><br>companies</p>
+          <p class="fs-200"><span class="fs-600">314</span><br>templates</p>
+          <p class="fs-200"><span class="fs-600">12M+</span><br>queries</p>
+        </div>
+      </div>
 
-      
+
     </div>
   </main>
-
-  Get insights that help your business grow.
-
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
-
 </body>
 </html>
